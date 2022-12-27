@@ -173,7 +173,7 @@ pyproject.toml
 .replit
 
 # Replit Nix config file
-replit.nix 
+replit.nix
 
 .breakpoints
 # End of https://www.toptal.com/developers/gitignore/api/python,replit
