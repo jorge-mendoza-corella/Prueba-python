@@ -178,4 +178,4 @@ replit.nix
 .breakpoints
 # End of https://www.toptal.com/developers/gitignore/api/python,replit
 
-.txt
+*.txt
