@@ -5,7 +5,7 @@ import charts
 
 def run():
     # leo el archivo
-    data = read_csv.read_csv('./app/data.csv')
+    data = read_csv.read_csv('data.csv')
     
     # solicito el pais
     pais = input('Dame el pais -> ')
