@@ -1,3 +1,8 @@
+def poblacion_por_pais(data,pais):
+    result = list(filter(lambda item: item['Country'] == pais, data))
+    return result
+
+
 def get_population(pais):
     poblacion = {
         '2022' : int(pais['2022 Population']),
@@ -15,6 +20,9 @@ def get_population(pais):
     values = poblacion.values()
     return labels, values
 
-def poblacion_por_pais(data,pais):
-    result = list(filter(lambda item: item['Country'] == pais, data))
-    return result
+
+def world_percentages(data): 
+    pais = list(map(lambda pais: pais['Country'], data))
+    porcentajes = list(map(lambda porcentaje: porcentaje['World Population Percentage'], data))
+    #datos = zip (pais,porcentajes)
+    return pais, porcentajes
