@@ -1,0 +1,11 @@
+Instalar el world_percentages
+
+1.- Ir al power shell de windows
+2.- poner: wsl --install
+3.- Ingresa el username y password 
+4.- Se instala el python 3
+5.- Se verifica la version python3 --version
+6.- sudo apt update
+7.- Se instala el pip: sudo apt-get -y install python3-pip
+8.- Se verifica el pip: pip3 --version
+9.- Se instala la extension del WSL en el visual studio code
