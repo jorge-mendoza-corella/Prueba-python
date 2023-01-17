@@ -9,3 +9,27 @@ Instalar el world_percentages
 7.- Se instala el pip: sudo apt-get -y install python3-pip
 8.- Se verifica el pip: pip3 --version
 9.- Se instala la extension del WSL en el visual studio code
+
+
+-Ejecutar localmente notebooks
+jupyter-notebook
+
+
+-Comandos de conda (administrador de ambientes virtuales)
+
+conda info
+conda env list
+conda create --name <nombre> <paquete=version>
+conda activate <nombre>
+conda deactivate
+conda list <paquete>
+conda update <paquete>
+conda install <paquete=version>
+conda remove <paquete>
+conda create --name <nombre> --copy --clone <env_origen>
+conda env remove --name <nombre>
+conda install --channel <chanel> <paquete>
+conda list --revisions
+conda install --revision <numero>
+conda env export --no-builds --file environment.yml
+conda env export --from-history --file environment.yml
