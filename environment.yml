@@ -1,0 +1,6 @@
+name: nuevo
+channels:
+  - defaults
+dependencies:
+  - python=3.5
+prefix: /home/jorge/anaconda3/envs/nuevo

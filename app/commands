@@ -19,7 +19,8 @@ jupyter-notebook
 
 conda info
 conda env list
-conda create --name <nombre> <paquete=version>
+conda env create --name <nombre> <paquete=version>
+conda env create --file <nombre.yml>
 conda activate <nombre>
 conda deactivate
 conda list <paquete>
