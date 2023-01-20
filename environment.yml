@@ -1,9 +1,9 @@
-name: nuevoEnv2
+name: nuevoEnv
 channels:
   - conda-forge
 dependencies:
   - conda-forge/linux-64::_libgcc_mutex==0.1=conda_forge
-  - conda-forge/linux-64::ca-certificates==2022.12.7=ha878542_0
+  - ca-certificates
   - conda-forge/linux-64::ld_impl_linux-64==2.39=hcc3a1bd_1
   - conda-forge/linux-64::libstdcxx-ng==12.2.0=h46fd767_19
   - conda-forge/noarch::pybind11-abi==4=hd8ed1ab_3
@@ -26,7 +26,7 @@ dependencies:
   - conda-forge/linux-64::lz4-c==1.9.3=h9c3ff4c_1
   - conda-forge/linux-64::lzo==2.10=h516909a_1000
   - conda-forge/linux-64::ncurses==6.3=h27087fc_1
-  - conda-forge/linux-64::openssl==3.0.7=h0b41bf4_1
+  - openssl
   - conda-forge/linux-64::reproc==14.2.4=h0b41bf4_0
   - conda-forge/linux-64::xz==5.2.6=h166bdaf_0
   - conda-forge/linux-64::yaml==0.2.5=h7f98852_2
@@ -44,7 +44,7 @@ dependencies:
   - conda-forge/linux-64::krb5==1.20.1=h81ceb04_0
   - conda-forge/linux-64::libarchive==3.6.2=h3d51595_0
   - conda-forge/linux-64::python==3.10.8=h4a9ceb5_0_cpython
-  - conda-forge/noarch::certifi==2022.12.7=pyhd8ed1ab_0
+  - certifi
   - conda-forge/noarch::charset-normalizer==2.1.1=pyhd8ed1ab_0
   - conda-forge/noarch::colorama==0.4.6=pyhd8ed1ab_0
   - conda-forge/noarch::idna==3.4=pyhd8ed1ab_0
@@ -72,4 +72,8 @@ dependencies:
   - conda-forge/noarch::conda-package-handling==2.0.2=pyh38be061_0
   - conda-forge/noarch::urllib3==1.26.13=pyhd8ed1ab_0
   - conda-forge/noarch::requests==2.28.1=pyhd8ed1ab_1
+  - numpy
+  - scipy
+  - matplotlib
+  - ipykernel
 prefix: /home/jorge/miniforge3/envs/nuevoEnv
